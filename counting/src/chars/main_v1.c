@@ -13,7 +13,7 @@ void main() {
     long nc;
     nc = 0;
     printf("enter data, press ctrl-d to signal EOF.\n");
-    while(getchar() != EOF)
+    while(getchar(&f) != EOF)
         ++nc;
     printf("counted %ld characters\n", nc);
 }
