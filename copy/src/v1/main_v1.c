@@ -10,7 +10,7 @@
 
 void main() {
     int c;
-    printf("copying input to output, use ctrl-c to exit\n")
+    printf("copying input to output, use ctrl-c to exit\n");
     c = getchar();
     while(c != EOF) {
         putchar(c);
